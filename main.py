@@ -76,16 +76,7 @@ def E(a):
 a = [[random.randint(-5, 7) for j in range(5)] for i in range(5)]
 E(a)
 # --------------------------------------
-import random
 
-
-def b(a):
-    b = []
-    for i in range(5):
-        for j in range(5):
-            if (1 + i) == j:
-                b.append(a[i][j])
-                print("{:5d}".format(a[i][j]), end=" ")
 
 
 a = [[random.randint(-5, 7) for j in range(5)] for i in range(5)]
